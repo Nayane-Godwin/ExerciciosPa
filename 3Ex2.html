@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script language=javascript>
+          salario= prompt ("Qual seu salário?");
+          vendas= prompt ("Informe o número de vendas:");
+          if (vendas < 1500) 
+          {
+            porcento= vendas *0.03;
+            total= salario + porcento ;
+            alert ("Salário total com 3% de comissão será de:" + " " + "R$" + total);
+          }
+          else if (vendas > 1500)
+          {
+            porcento= vendas *0.05;
+            total= salario + porcento;
+            alert ("Salário total com 5% de comissão será de:" + " " + "R$" + total);
+          }
+        </script>
+    </head>
+    <body></body>
+</html>
